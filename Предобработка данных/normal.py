@@ -24,9 +24,9 @@ x_standartized = [round((x_i - mean_x)/variance_x, 2) for x_i in x]
 print(x_standartized)
 
 # Масштабирование признаков для машинного обучения
-# l2 - норма, или евклидова норма, где р=2  
+# l2 - норма(регуляризация), или евклидова норма, где р=2  
 l2_norm = sqrt(sum([x_i**2 for x_i in x]))
 
 x_scaled = [round(x_i/l2_norm, 2) for x_i in x] #применяем норму для каждого элемента списка
 print(x_scaled)
-# l1 - норма, р=1
+# l1 - норма(регуляризация), р=1

@@ -99,3 +99,7 @@ pip install folium
 **Файл Video_map.ipynb**
 
 С помощью плагина raster_layers.VideoOverlay() добавляем на карту видео.
+
+**Файл calculate_derivaties.ipynb**
+
+Вычисление производной с помощью python, библиотека SumPy.

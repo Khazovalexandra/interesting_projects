@@ -53,7 +53,13 @@ pip install transformers
 
 ## 3. Моделирование солнечной системы
 
-[По статье с habr.com](https://habr.com/ru/articles/419911/)
+Моделирование Солнечной системы с помощью python:
+
+    - библиотека matplotlib (файл Solar_system_matplotlib.py): по сути генерирует 3D-график по рассчитанным орбитам, мал, не масштабируется
+
+    - библиотека plotly (файл 3D_Solar_system_plotly.py): тоже генерирует 3D-график, но открывает его в браузере, отлично масштабируется, крутится, в дополнение еще и планеты немного на себя похожи (у Сатурна даже кольца есть) 
+
+[По статье с habr.com](https://habr.com/ru/articles/419911/): Earth_and_Mars.py, Earth_and_Moon.py, Halley's_comet.py.
 
 ## 4. Обращение к ChatGPT.
 

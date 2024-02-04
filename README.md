@@ -57,7 +57,16 @@ pip install transformers
     
 - библиотека matplotlib (файл Solar_system_matplotlib.py): по сути генерирует 3D-график по рассчитанным орбитам, мал, не масштабируется
 
+<<<<<<< Updated upstream
 - библиотека plotly (файл 3D_Solar_system_plotly.py): тоже генерирует 3D-график, но открывает его в браузере, отлично масштабируется, крутится, в дополнение еще и планеты немного на себя похожи (у Сатурна даже кольца есть) 
+=======
+    - библиотека matplotlib (файл Solar_system_matplotlib.py): по сути генерирует 3D-график по рассчитанным орбитам, мал, не масштабируется
+
+    - matplotlib animation (файл 2D_Solar_system_matplotlib_animation.py): анимированный 2D-график Солнечной системы с учетом положения планет во времени. Ссылка: https://github.com/stalegjelsten/solar-system-sim
+
+    - библиотека plotly (файл 3D_Solar_system_plotly.py): тоже генерирует 3D-график, но открывает его в браузере, отлично масштабируется, крутится, в дополнение еще и планеты немного на себя похожи (у Сатурна даже кольца есть). Ссылка: https://questu.ru/articles/773904/
+
+>>>>>>> Stashed changes
 
 [По статье с habr.com](https://habr.com/ru/articles/419911/): Earth_and_Mars.py, Earth_and_Moon.py, Halley's_comet.py.
 
